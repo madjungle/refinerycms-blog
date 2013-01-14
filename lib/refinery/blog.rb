@@ -2,6 +2,7 @@ require 'refinerycms-core'
 require 'refinerycms-settings'
 require 'filters_spam'
 require 'rails_autolink'
+require 'friendly_id'
 
 module Refinery
   autoload :BlogGenerator, 'generators/refinery/blog/blog_generator'
